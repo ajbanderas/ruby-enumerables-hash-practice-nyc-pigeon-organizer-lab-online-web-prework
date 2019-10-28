@@ -36,6 +36,6 @@ def nyc_pigeon_organizer(data)
   names = grab_pigeon_names(data)
   organized_hash = create_new_hash(names)
   set_new_values(data,organized_hash)
-  pp organized_hash
+  organized_hash
 end
 
