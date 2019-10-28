@@ -16,6 +16,10 @@ def create_new_hash(key_array)
   new_hash
 end
 
+def set_new_values(source, target)
+  
+end
+
 def nyc_pigeon_organizer(data)
   organized_hash = {}
   names = grab_pigeon_names(data)
