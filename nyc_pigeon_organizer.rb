@@ -24,7 +24,7 @@ def set_new_values(source, target)
       value.each do |key, value|
         specific_attribute = key
         if value.include?(name)
-          target[name][attribute] << specific_attribute
+          target[name][attribute] << specific_attribute.to_s
         end
       end
     end  
