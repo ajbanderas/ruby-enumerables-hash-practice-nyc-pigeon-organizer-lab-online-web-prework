@@ -18,6 +18,7 @@ pigeon_data = {
 }
 
 pigeon_data.each do |key, value| 
-  pp key
-  pp value
+  key.each do |key, value|
+    pp value
+  end
 end
