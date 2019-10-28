@@ -35,6 +35,6 @@ def nyc_pigeon_organizer(data)
   organized_hash = {}
   names = grab_pigeon_names(data)
   organized_hash = create_new_hash(names)
-  pp organized_hash["Theo"][:color]
+  pp organized_hash["Theo"][:color] << :purple
 end
 
